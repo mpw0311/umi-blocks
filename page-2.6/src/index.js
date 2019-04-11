@@ -6,7 +6,7 @@
 import { PureComponent } from 'react';
 import { Button } from 'antd';
 import { connect } from 'dva';
-import { Page } from 'components';
+import { Page } from '@components';
 import styles from './index.less';
 
 class Index extends PureComponent {
@@ -16,7 +16,19 @@ class Index extends PureComponent {
     }
     render() {
         return (
-            <Page className={styles.content}>
+            <Page
+                pathtitles={[{
+                    title: 'Page Test',
+                    icon: 'github'
+                }]}
+                title={'Page Test'}
+                description={'description……'}
+                className={styles.content}
+                style={{
+                    backgroundColor: 'transparent',
+                    //  minHeight: 800
+                }}
+            >
                 <Button>submit</Button>
             </Page>
         );
