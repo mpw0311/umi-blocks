@@ -1,11 +1,24 @@
 {
-  "name": "page",
-  "version": "1.0.0",
+  "name": "@umi-block/page",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "src/index.js",
+  "authors": {
+    "name": "M",
+    "email": "mpw0311@163.com"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": "https://github.com/mpw0311/umi-blocks/tree/master/page/page",
+  "scripts": {
+    "dev": "umi dev"
+  },
+  "dependencies": {
+    "react": ">=16.0.0"
+  },
+  "devDependencies": {
+    "umi": "^2.0.0",
+    
+    "umi-plugin-block-dev": "^1.0.0"
+    
+    },
+  "license": "MIT"
 }

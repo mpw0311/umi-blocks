@@ -4,10 +4,10 @@
   "description": "",
   "main": "src/index.js",
   "authors": {
-    "name": "",
-    "email": ""
+    "name": "M",
+    "email": "mpw0311@163.com"
   },
-  "repository": "umijs/umi-blocks/newPage",
+  "repository": " https://github.com/mpw0311/umi-blocks/tree/master/newPage",
   "scripts": {
     "dev": "umi dev"
   },
